@@ -1,5 +1,25 @@
-@media screen and (max-width:600px) {
-  .container__menu-title > h1{
+@media screen and (max-width: 600px) {
+  .container__menu-title > h1 {
     font-size: 30px;
+  }
+}
+.container__menu-title {
+  text-align: center;
+}
+
+.marvel-logo {
+  max-width: 400px; /* Ajuste o tamanho conforme necessário */
+  margin: 10px; /* Espaçamento em torno do logotipo */
+}
+
+.blog-title {
+  font-family: sans-serif; /* Substitua pelo nome da fonte real da Marvel, se disponível */
+  color: red;
+  font-size: 30px; /* Tamanho da fonte da palavra "Blog" */
+}
+
+@media screen and (max-width: 600px) {
+  .container__menu-title > .blog-title {
+    font-size: 18px; /* Tamanho da fonte da palavra "Blog" em telas menores */
   }
 }
